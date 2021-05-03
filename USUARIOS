@@ -1,0 +1,62 @@
+$Password =Read-Host -ASSECURESTRING
+Sena123
+
+
+New-LocalUser -Name "PSICOLOGO" -Password $Password
+New-LocalUser -Name "SOCIOLOGO" -Password $Password
+New-LocalUser -Name "ABOGADOO" -Password $Password
+New-LocalUser -Name "CONSOGENERAL" -Password $Password
+New-LocalUser -Name "LIDERDISTICO" -Password $Password
+New-LocalUser -Name "ESTASOPORTE" -Password $Password
+
+New-LocalUser -Name "PROCOMUNICACIONES" -Password $Password
+New-LocalUser -Name "LIDERCACIONES" -Password $Password
+
+New-LocalUser -Name "ANALICACIONES" -Password $Password
+New-LocalUser -Name "INGENIEROJEFE" -Password $Password
+
+New-LocalUser -Name "TECNOLOGOITS" -Password $Password
+New-LocalUser -Name "DIRECTORITS" -Password $Password
+
+New-LocalUser -Name "CONTADOR" -Password $Password
+New-LocalUser -Name "PROFESIONALFINAZAS" -Password $Password
+New-LocalUser -Name "DIRECTORECONOMICO" -Password $Password
+
+New-LocalUser -Name "COORDINADORAMBIENTAL" -Password $Password
+New-LocalUser -Name "PROFESIONALAMBIENTAL" -Password $Password
+
+New-LocalUser -Name "SUPERTRUCTURA" -Password $Password
+New-LocalUser -Name "ANARIDAD" -Password $Password
+New-LocalUser -Name "PROMIENTO" -Password $Password
+
+New-LocalUser -Name "DIRECTORTECNICO"-Password $Password
+
+New-LocalUser -Name "SUBGERENTEGENERAL" -Password $Password
+New-LocalUser -Name "GERENTEGENERAL" -Password $Password
+
+New-LocalUser -Name "COORDINADORSEGURIDAD" -Password $Password
+New-LocalUser -Name "PRODADVIAL" -Password $Password
+New-LocalUser -Name "PROONAL" -Password $Password
+New-LocalUser -Name "PRONTES" -Password $Password
+New-LocalUser -Name "ISPECONAL" -Password $Password
+
+New-LocalUser -Name "DESARROLLADOR" -Password $Password
+
+New-LocalUser -Name "COORCENTER" -Password $Password
+
+New-LocalUser -Name "SUPETROL" -Password $Password
+New-LocalUser -Name "ANALISTAPROGRAMACION" -Password $Password
+New-LocalUser -Name "PROFCIONES" -Password $Password
+New-LocalUser -Name "COORCIONES" -Password $Password
+New-LocalUser -Name "ANATIVA" -Password $Password
+
+New-LocalUser -Name "ASESORMANTENIMIENTO" -Password $Password
+New-LocalUser -Name "SUPERVISORTECNICOS" -Password $Password
+
+New-LocalUser -Name "DIRECTORJURIDICO"-Password $Password
+New-LocalUser -Name "ABOGUROS" -Password $Password
+New-LocalUser -Name "ABOGADOLIDER" -Password $Password
+
+New-LocalUser -Name "DISENADORWEB" -Password $Password
+New-LocalUser -Name "DISENADORGRAFICO" -Password $Password
+New-LocalUser -Name "SOCIALMEDIAMANAGER" -Password $Password
