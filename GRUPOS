@@ -1,0 +1,80 @@
+
+New-LocalGroup RECURSOS_HUMANOS
+New-LocalGroup CONSOLIDACION_GENERAL_Y_SOPORTE
+New-LocalGroup ATENCION_USUARIOS_Y_COMUNICACIONES
+New-LocalGroup TELECOMUNICACIONES
+New-LocalGroup SISTEMA INTELIGENTE_DE_TRANSPORTE
+New-LocalGroup FINANZAS
+New-LocalGroup GESTION_AMBIENTAL
+New-LocalGroup TRANSMICABLE
+New-LocalGroup DIRECCION_TECNICA
+New-LocalGroup GERENCIA_GENERAL
+New-LocalGroup SEGURIDAD_SALUD
+New-LocalGroup TECNOLOGIA
+New-LocalGroup LOGISTICA
+New-LocalGroup MANTENIMIENTO
+New-LocalGroup LEGALES
+New-LocalGroup MARKETING
+New-LocalGroup JUNTA_DIRECTIVA
+
+
+
+
+Add-LocalGroupMember -Member PSICOLOGO -Group RECURSOS_HUMANOS
+Add-LocalGroupMember -Member SOCIOLOGO -Group RECURSOS_HUMANOS
+Add-LocalGroupMember -Member ABOGADOO -Group RECURSOS_HUMANOS
+
+Add-LocalGroupMember -Member CONSOGENERAL -Group CONSOLIDACION_GENERAL_Y_SOPORTE
+Add-LocalGroupMember -Member LIDERDISTICO -Group CONSOLIDACION_GENERAL_Y_SOPORTE
+Add-LocalGroupMember -Member ESTASOPORTE -Group CONSOLIDACION_GENERAL_Y_SOPORTE
+
+Add-LocalGroupMember -Member PROCOMUNICACIONES -Group ATENCION_USUARIOS_Y_COMUNICACIONES
+Add-LocalGroupMember -Member LIDERCACIONES -Group ATENCION_USUARIOS_Y_COMUNICACIONES
+
+Add-LocalGroupMember -Member ANALICACIONES -Group TELECOMUNICACIONES
+Add-LocalGroupMember -Member INGENIEROJEFE -Group TELECOMUNICACIONES
+
+Add-LocalGroupMember -Member TECNOLOGOITS -Group SISTEMA_INTELIGENTE_DE_TRANSPORTE
+Add-LocalGroupMember -Member DIRECTORITS -Group SISTEMA_INTELIGENTE_DE_TRANSPORTE
+
+Add-LocalGroupMember -Member PROFESIONALFINAZAS -Group FINANZAS
+Add-LocalGroupMember -Member DIRECTORITS -Group FINANZAS
+Add-LocalGroupMember -Member CONTADOR -Group FINANZAS
+
+Add-LocalGroupMember -Member COORDINADORAMBIENTAL -Group GESTION_AMBIENTAL
+Add-LocalGroupMember -Member PROFESIONALAMBIENTAL -Group GESTION_AMBIENTAL
+
+Add-LocalGroupMember -Member SUPERTRUCTURA -Group TRANSMICABLE
+Add-LocalGroupMember -Member ANARIDAD -Group TRANSMICABLE
+Add-LocalGroupMember -Member PROMIENTO -Group TRANSMICABLE
+
+Add-LocalGroupMember -Member DIRECTORTECNICO -Group DIRECCION_TECNICA
+
+Add-LocalGroupMember -Member SUBGERENTEGENERAL -Group GERENCIA_GENERAL
+Add-LocalGroupMember -Member GERENTEGENERAL -Group GERENCIA_GENERAL
+
+Add-LocalGroupMember -Member COORDINADORSEGURIDAD -Group SEGURIDAD_SALUD
+Add-LocalGroupMember -Member PRODADVIAL -Group SEGURIDAD_SALUD
+Add-LocalGroupMember -Member PROONAL -Group SEGURIDAD_SALUD
+Add-LocalGroupMember -Member PRONTES -Group SEGURIDAD_SALUD
+Add-LocalGroupMember -Member ISPECONAL -Group SEGURIDAD_SALUD
+
+Add-LocalGroupMember -Member DESARROLLADOR -Group TECNOLOGIA
+Add-LocalGroupMember -Member COORCENTER -Group TECNOLOGIA
+
+Add-LocalGroupMember -Member SUPETROL -Group LOGISTICA
+Add-LocalGroupMember -Member ANALISTAPROGRAMACION -Group LOGISTICA
+Add-LocalGroupMember -Member PROFCIONES -Group LOGISTICA
+Add-LocalGroupMember -Member COORCIONES -Group LOGISTICA
+Add-LocalGroupMember -Member ANATIVA -Group LOGISTICA
+
+Add-LocalGroupMember -Member ASESORMANTENIMIENTO -Group MANTENIMIENTO
+Add-LocalGroupMember -Member SUPERVISORTECNICOS -Group MANTENIMIENTO
+
+Add-LocalGroupMember -Member DIRECTORJURIDICO -Group LEGALES
+Add-LocalGroupMember -Member ABOGUROS -Group LEGALES
+Add-LocalGroupMember -Member ABOGADOLIDER -Group LEGALES
+
+Add-LocalGroupMember -Member DISENADORWEB -Group MARKETING
+Add-LocalGroupMember -Member DISENADORGRAFICO -Group MARKETING
+Add-LocalGroupMember -Member SOCIALMEDIAMANAGER -Group MARKETING
